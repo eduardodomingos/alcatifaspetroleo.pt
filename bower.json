@@ -1,0 +1,20 @@
+{
+  "name": "alcatifaspetroleo",
+  "authors": [
+    "Eduardo Domingos <edomingos@impresa.pt>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "uikit": "^2.27.2"
+  }
+}

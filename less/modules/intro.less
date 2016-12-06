@@ -1,0 +1,22 @@
+.tm-intro__title {
+    font-size: 30px;
+    line-height: 32px;
+
+    /* Desktop and bigger */
+    @media (min-width: @breakpoint-large) {
+        text-align: right;
+        font-size: 35px;
+        line-height: 40px;
+        position: relative;
+        padding-bottom: 17px;
+        &:after {
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 30px;
+            height: 4px;
+            background: @ui-text-dark;
+        }
+    }
+}

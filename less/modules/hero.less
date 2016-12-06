@@ -1,0 +1,34 @@
+.tm-hero {
+    .uk-button {
+        font-size: 12px;
+    }
+}
+
+
+.tm-hero__title {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+
+    /* Tablets and bigger */
+    @media (min-width: @breakpoint-medium) {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    /* Desktop and bigger */
+    @media (min-width: @breakpoint-large) {
+        font-size: 42px;
+        line-height: 52px;
+    }
+}
+.tm-hero__text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+
+    /* Tablets and bigger */
+    @media (min-width: @breakpoint-medium) {
+        font-size: 26px;
+    }
+}
