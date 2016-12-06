@@ -1,0 +1,20 @@
+.tm-footer {
+    font-size: 14px;
+    .uk-panel-title {
+        font-size: 23px;
+        padding-bottom: @panel-title-margin-bottom;
+        border-bottom: 1px solid #5a5a5a;
+        /* Tablets and bigger */
+        @media (min-width: @breakpoint-medium) {
+            padding-bottom: 0;
+            border: none;
+        }
+    }
+}
+
+.tm-footer__legal {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: @utility-container-padding-horizontal;
+    background-color: darken(@ui-neutral-x-dark, 2%);
+}
