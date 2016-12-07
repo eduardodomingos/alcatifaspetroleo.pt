@@ -6,6 +6,7 @@
 
 // Components: JavaScript
 @import "../bower_components/uikit/less/components/slideshow.less";
+@import "../bower_components/uikit/less/components/sticky.less";
 
 @icon-font-path: "../bower_components/uikit/fonts";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Playfair+Display|Raleway:300,400,500,700');
@@ -28,11 +29,11 @@
 @base-heading-font-family:                  'Raleway', sans-serif;
 @base-heading-font-weight:                  500;
 
-@navbar-background:                         tranparent;
+@navbar-background:                         #fff;
 @navbar-nav-height:                         90px;
 @navbar-nav-color:                          @ui-text-dark;
 @navbar-nav-font-size:                      14px;
-@navbar-nav-font-family:                    'Raleway', sans-serif;
+@navbar-nav-font-family:                    @base-body-font-family;
 @navbar-nav-hover-background:               transparent;
 @navbar-nav-hover-color:                    @ui-text-dark;
 @navbar-nav-onclick-background:             transparent;
@@ -51,10 +52,14 @@
 @dotnav-width:                              10px;
 
 @utility-border-rounded:                    @global-radius;
+@utility-link-muted-color:                  inherit;
+@utility-link-muted-hover-color:            @base-link-hover-color;
 
 @button-font-size:                          14px;
 @button-large-font-size:                    14px;
 
+@block-padding-vertical:                    60px;
+@block-padding-vertical-large:              65px;
 @block-secondary-background:                @ui-neutral-x-dark;
 
 @text-small-font-size:                      12px;
