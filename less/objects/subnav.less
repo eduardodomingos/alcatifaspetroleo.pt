@@ -1,0 +1,22 @@
+.tm-subnav-catalog > * {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 15px;
+    margin-top: 15px;
+
+    /* Tablets and bigger */
+    @media (min-width: @breakpoint-medium) {
+        padding-left: 25px;
+    }
+
+    /* Desktop and bigger */
+    @media (min-width: @breakpoint-large) {
+        padding-left: 30px;
+    }
+}
+
+.hook-subnav-active() {
+    border-bottom: 3px solid @ui-primary;
+}

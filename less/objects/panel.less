@@ -1,0 +1,16 @@
+.hook-panel-box() {
+    border: 1px solid @ui-borders;
+    border-radius: @global-radius;
+}
+
+.hook-panel-misc() {
+
+    .uk-panel-box .uk-panel-teaser {
+        border-top-left-radius: @global-radius;
+        border-top-right-radius: @global-radius;
+        overflow: hidden;
+        // Fixed `overflow: hidden` to be ignored with border-radius and CSS transforms in Webkit
+        -webkit-transform: translateZ(0);
+    }
+
+}
