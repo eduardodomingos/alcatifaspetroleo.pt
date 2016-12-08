@@ -54,9 +54,6 @@
 @utility-border-rounded:                    @global-radius;
 @utility-link-muted-color:                  inherit;
 @utility-link-muted-hover-color:            @base-link-hover-color;
-@utility-margin:                            30px;
-@utility-margin-small:                      15px;
-@utility-margin-large:                      65px;
 
 @button-font-size:                          14px;
 @button-large-font-size:                    14px;
@@ -66,6 +63,8 @@
 @block-secondary-background:                @ui-neutral-x-dark;
 
 @text-small-font-size:                      12px;
+@text-primary-color:                        @ui-primary;
+@text-muted-color:                          @ui-text;
 
 @breadcrumb-divider:                        "\f105";
 @breadcrumb-font-size:                      14px;
@@ -84,6 +83,8 @@
 @panel-box-background:                      transparent;
 @panel-hover-hover-background:              transparent;
 
+@import "base/typography.less";
+
 @import "objects/block.less";
 @import "objects/breadcrumb.less";
 @import "objects/button.less";
@@ -95,6 +96,7 @@
 
 @import "modules/block.less";
 @import "modules/banner.less";
+@import "modules/checklist.less";
 @import "modules/footer.less";
 @import "modules/header.less";
 @import "modules/hero.less";
