@@ -12,7 +12,7 @@
     <script src="bower_components/uikit/js/components/sticky.min.js"></script>
 </head>
 <body>
-    <header class="tm-header">
+    <header id="top" class="tm-header">
         <div class="uk-block tm-block-tiny tm-block-light uk-hidden-small">
             <div class="uk-container uk-container-center">
                 <div class="uk-flex uk-flex-space-between uk-flex-middle">
@@ -124,7 +124,9 @@
             </div>
         </div>
     </div>
+        <a href="#top" class="tm-footer__to-top" data-uk-smooth-scroll=""><i class="uk-icon-arrow-up"></i></a>
         <p class="uk-text-center uk-text-small uk-text-muted tm-footer__legal">&copy; 2016 Alcatifas Petróleo - Todos os direitos reservados</p>
+        <p class="tm-sr-only">Theme developed by <a href="http://www.eduardodomingos.com/" rel="designer">Eduardo Domingos</a>.</p>
     </footer>
 
     <div id="offcanvas" class="uk-offcanvas">
