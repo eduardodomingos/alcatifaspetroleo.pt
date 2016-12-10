@@ -212,7 +212,7 @@
                     <p class="tm-banner__text">Peça-nos um orçamento, <span>respondemos em 48h</span></p>
                 </div>
                 <div class="uk-width-large-1-3 uk-text-center">
-                    <a href="" class="uk-button uk-button-large uk-button-primary">Pedir orçamento</a>
+                    <a href="#ask-quote-modal" class="uk-button uk-button-large uk-button-primary" data-uk-modal="{center:true}">Pedir orçamento</a>
                 </div>
             </div>
         </div>
@@ -294,6 +294,26 @@
         <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
             <form class="uk-search" data-uk-search>
                 <input class="uk-search-field" type="search" placeholder="Pesquisar">
+            </form>
+        </div>
+    </div>
+
+    <div id="ask-quote-modal" class="uk-modal">
+        <div class="uk-modal-dialog">
+            <a class="uk-modal-close uk-close uk-margin-bottom"></a>
+            <form class="uk-form uk-margin">
+                <div class="uk-form-row">
+                    <input class="uk-width-1-1" type="text" placeholder="O seu nome">
+                </div>
+                <div class="uk-form-row">
+                    <input class="uk-width-1-1" type="text" placeholder="O seu email">
+                </div>
+                <div class="uk-form-row">
+                    <textarea class="uk-width-1-1" name="" id="" cols="30" rows="10" placeholder="A sua mensagem"></textarea>
+                </div>
+                <div class="uk-form-row">
+                    <button type="button" class="uk-button uk-button-primary uk-button-large">Enviar</button>
+                </div>
             </form>
         </div>
     </div>
