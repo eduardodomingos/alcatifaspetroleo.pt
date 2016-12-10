@@ -22,7 +22,8 @@
                     </div>
                     <div class="uk-contrast">
                         <a href="#" class="uk-icon-button uk-icon-facebook uk-margin-right"></a>
-                        <a href="#" class="uk-icon-button uk-icon-instagram"></a>
+                        <a href="#" class="uk-icon-button uk-icon-instagram uk-margin-right"></a>
+                        <a href="#" class="uk-icon-button uk-icon-search" data-uk-offcanvas="{target:'#offcanvas-search'}"></a>
                     </div>
                 </div>
             </div>
@@ -37,18 +38,6 @@
                         <li><a href="index.html">Início</a></li>
                         <li><a href="about.html">Quem somos</a></li>
                         <li><a href="catalog.html">Catálogo</a></li>
-                        <!--<li class="uk-parent uk-active" data-uk-dropdown>-->
-                            <!--<a href="catalog.html">Catálogo <i class="uk-icon-caret-down"></i></a>-->
-                            <!--<div class="uk-dropdown uk-dropdown-navbar">-->
-                                <!--<ul class="uk-nav uk-nav-navbar">-->
-                                    <!--<li><a href="category.html">Alcatifas</a></li>-->
-                                    <!--<li><a href="category.html">Cortinados</a></li>-->
-                                    <!--<li><a href="category.html">Peças de Decoração</a></li>-->
-                                    <!--<li><a href="category.html">Relva Sintética</a></li>-->
-                                    <!--<li><a href="category.html">Pavimentos Vinílicos</a></li>-->
-                                <!--</ul>-->
-                            <!--</div>-->
-                        <!--</li>-->
                         <li class="uk-active"><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="contacts.html">Contactos</a></li>
                     </ul>
@@ -165,7 +154,8 @@
                         <img src="storage/logo-offcanvas.png" alt="Logo">
                     </a>
                     <a href="" class="uk-icon-button uk-icon-facebook uk-margin-right"></a>
-                    <a href="" class="uk-icon-button uk-icon-instagram"></a>
+                    <a href="#" class="uk-icon-button uk-icon-instagram uk-margin-right"></a>
+                    <a href="#" class="uk-icon-button uk-icon-search" data-uk-offcanvas="{target:'#offcanvas-search'}"></a>
                 </div>
                 <div class="uk-panel">
                     <h4 class="uk-panel-title">Secções</h4>
@@ -212,13 +202,24 @@
                     <img class="uk-responsive-height" src="storage/logo-offcanvas.png" alt="Logo">
                 </a>
             </div>
+            <form class="uk-search" data-uk-search>
+                <input class="uk-search-field" type="search" placeholder="Pesquisar">
+            </form>
             <ul class="uk-nav uk-nav-offcanvas">
-                <li class="uk-active"><a href="index.html">Início</a></li>
+                <li><a href="index.html">Início</a></li>
                 <li><a href="about.html">Quem somos</a></li>
                 <li><a href="catalog.html">Catálogo</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+                <li class="uk-active"><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contacts.html">Contactos</a></li>
             </ul>
+        </div>
+    </div>
+
+    <div id="offcanvas-search" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+            <form class="uk-search" data-uk-search>
+                <input class="uk-search-field" type="search" placeholder="Pesquisar">
+            </form>
         </div>
     </div>
 

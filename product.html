@@ -22,7 +22,8 @@
                     </div>
                     <div class="uk-contrast">
                         <a href="#" class="uk-icon-button uk-icon-facebook uk-margin-right"></a>
-                        <a href="#" class="uk-icon-button uk-icon-instagram"></a>
+                        <a href="#" class="uk-icon-button uk-icon-instagram uk-margin-right"></a>
+                        <a href="#" class="uk-icon-button uk-icon-search" data-uk-offcanvas="{target:'#offcanvas-search'}"></a>
                     </div>
                 </div>
             </div>
@@ -103,7 +104,7 @@
                         <div class="uk-panel-teaser">
                             <img src="storage/catalog-01.jpg" alt="Catalog 01">
                         </div>
-                        <h3 class="uk-panel-title">Scorpiu</h3>
+                        <h3 class="uk-panel-title">Scorpius</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </a>
                 </div>
@@ -160,7 +161,8 @@
                         <img src="storage/logo-offcanvas.png" alt="Logo">
                     </a>
                     <a href="" class="uk-icon-button uk-icon-facebook uk-margin-right"></a>
-                    <a href="" class="uk-icon-button uk-icon-instagram"></a>
+                    <a href="#" class="uk-icon-button uk-icon-instagram uk-margin-right"></a>
+                    <a href="#" class="uk-icon-button uk-icon-search" data-uk-offcanvas="{target:'#offcanvas-search'}"></a>
                 </div>
                 <div class="uk-panel">
                     <h4 class="uk-panel-title">Secções</h4>
@@ -207,13 +209,24 @@
                     <img class="uk-responsive-height" src="storage/logo-offcanvas.png" alt="Logo">
                 </a>
             </div>
+            <form class="uk-search" data-uk-search>
+                <input class="uk-search-field" type="search" placeholder="Pesquisar">
+            </form>
             <ul class="uk-nav uk-nav-offcanvas">
-                <li class="uk-active"><a href="index.html">Início</a></li>
+                <li><a href="index.html">Início</a></li>
                 <li><a href="about.html">Quem somos</a></li>
-                <li><a href="catalog.html">Catálogo</a></li>
+                <li class="uk-active"><a href="catalog.html">Catálogo</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contacts.html">Contactos</a></li>
             </ul>
+        </div>
+    </div>
+
+    <div id="offcanvas-search" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+            <form class="uk-search" data-uk-search>
+                <input class="uk-search-field" type="search" placeholder="Pesquisar">
+            </form>
         </div>
     </div>
 
